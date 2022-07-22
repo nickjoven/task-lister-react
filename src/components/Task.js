@@ -1,7 +1,7 @@
-const Task = () => {
+const Task = ({text}) => {
   return(
     <li>
-      Task
+      {text}
     </li>
   )
 }
