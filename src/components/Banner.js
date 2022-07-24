@@ -1,6 +1,6 @@
-const Banner = () => {
+const Banner = ({x, y, greet}) => {
   return(
-    <h1>Task Lister React™</h1>
+    <h1>{x}</h1>
   )
 }
 
