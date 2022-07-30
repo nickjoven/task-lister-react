@@ -1,7 +1,9 @@
-const Banner = ({x, y, greet}) => {
-  return(
-    <h1>{x}</h1>
+const Banner = ({ bannerText }) => {
+  return (
+    <h1>
+      {bannerText}
+    </h1>
   )
 }
 
-export default Banner;
+export default Banner

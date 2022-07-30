@@ -1,9 +1,9 @@
-const Task = ({text}) => {
-  return(
-    <li>
-      {text}
-    </li>
+import React from "react";
+
+const Task = ({ text }) => {
+  return (
+    <li>{text}</li>
   )
 }
 
-export default Task;
+export default Task
