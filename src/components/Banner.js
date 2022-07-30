@@ -1,8 +1,10 @@
 const Banner = ({ bannerText }) => {
   return (
-    <h1>
+    <div className='Banner'>
+      <h1>
       {bannerText}
-    </h1>
+      </h1>
+    </div>
   )
 }
 
